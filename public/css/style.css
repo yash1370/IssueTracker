@@ -1,4 +1,13 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
+}
+
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.nav-link:hover {
+    color: #fff !important;
 }
