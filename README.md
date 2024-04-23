@@ -28,7 +28,7 @@ Project Issue Tracker is a simple web application built with Node.js and EJS tha
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/project-issue-tracker.git
+    git clone git@github.com:yash1370/IssueTracker.git
     ```
 
 2. Navigate to the project directory:
@@ -49,7 +49,7 @@ Project Issue Tracker is a simple web application built with Node.js and EJS tha
 
     ```
     DB_URI=your_mongodb_connection_string
-    PORT=3000
+    PORT=3100
     ```
 
 5. Start the application:
@@ -58,17 +58,10 @@ Project Issue Tracker is a simple web application built with Node.js and EJS tha
     npm start
     ```
 
-The application should now be running on `http://localhost:3200`.
+The application should now be running on `http://localhost:3100`.
 
 ## Usage
 
-1. Open your web browser and navigate to `http://localhost:3200`.
+1. Open your web browser and navigate to `http://localhost:3100`.
 2. Create a new project by clicking on the "Create Projects" button on the navbar.
 3. Add issues to the project by clicking on the "Create Issue" button within the project page.
-
-## Contributing
-
-We welcome contributions! Please feel free to submit a pull request or open an issue if you find any bugs or have suggestions for improvements.
-
-## ConnectMe 
-[![Languages Used](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/mdirfanul/)
