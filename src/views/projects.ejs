@@ -1,6 +1,6 @@
   <!-- Welcome section  -->
   
-  <section class="py-5 bg-dark bg-gradient text-light"id="Home">
+  <section class="py-5 bg-dark text-light"id="Home">
     <div class="container ">
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -19,21 +19,21 @@
 
 <section class="py-5 bg-light bg-gradient"id="Projects">
   <div class="container">
-      <h2 class="text-center mb-4 bg-dark bg-gradient text-light">Project Showcase</h2>
+      <h3 class="text-center mb-4 bg-dark bg-gradient text-light p-2">Project Showcase</h3>
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           <!-- Project Card -->
           <%projects.forEach(project=>{%>
-          <div class="col">
-              <div class="card h-100 border border-dark-subtle">
-                  <div class="card-body">
-                      <h5 class="card-title"><%=project.pName%></h5>
-                      <p class="card-text"><%=project.description%></p>
-                      <p class="card-text"><small class="text-muted">Author: <%=project.author%></small></p>
-                     <span class="d-flex align-items-center justify-content-end"><a  href ="/projectDetails/<%=project.id%>" type="button"class="btn btn-primary">View Project</a></span> 
-                  </div>
-              </div>
-          </div>
-          <%})%>
-      </div>
-  </div>
+            <div class="col">
+                <div class="card h-100 border border-dark-subtle">
+                    <div class="card-body">
+                        <h5 class="card-title"><%=project.pName%></h5>
+                        <p class="card-text"><%=project.description%></p>
+                        <p class="card-text"><small class="text-muted">Author: <%=project.author%></small></p>
+                        <span class="d-flex align-items-center justify-content-end"><a  href ="/projectDetails/<%=project.id%>" type="button"class="btn btn-primary">View Project</a></span> 
+                    </div>
+                </div>
+            </div>
+            <%})%>
+        </div>
+    </div>
 </section>

@@ -35,7 +35,7 @@ server.get("/deleteIssue/:id",issueController.deleteIssue);
 server.get("/404",projectController.getErrorpage);
 server.use(express.static("src/views"));
 
-// const port = 3200;
+// const port = 3100;
 server.listen(process.env.PORT);
 
 console.log(`server is listening at http:localhost:${process.env.PORT}`)
